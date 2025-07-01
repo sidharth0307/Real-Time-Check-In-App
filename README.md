@@ -11,16 +11,16 @@ Tech Stack
 
  Getting Started
 
-cd backend
-npm install
-npx prisma generate
-npx prisma migrate dev
-npm run dev
-Ensure PostgreSQL is running and `.env` has a valid `DATABASE_URL`.
+-cd backend
+-npm install
+-npx prisma generate
+-npx prisma migrate dev
+-npm run dev
+-Ensure PostgreSQL is running and `.env` has a valid `DATABASE_URL`.
 
-cd frontend
-npm install
-npx expo start
+-cd frontend
+-npm install
+-npx expo start
 
 - Use Expo Go on your phone to scan the QR code.
 - Use your local IP in frontend for API and socket URLs.
